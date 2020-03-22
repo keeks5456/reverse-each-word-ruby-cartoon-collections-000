@@ -18,7 +18,6 @@ end
 def reverse_each_word(string)
   into_array = string.split(" ")
   new_array = []
-  # itereate over array
  into_array.collect do |word|
   # the new array will now become our reversed array from the original
    new_array << word.reverse
@@ -28,6 +27,7 @@ def reverse_each_word(string)
   end
 
  # turn the original string to an array
+  # itereate over array
 
 
 
