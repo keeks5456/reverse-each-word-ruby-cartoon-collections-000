@@ -21,7 +21,7 @@ def reverse_each_word(string)
    into_array.join(" ")
  end
 
-# into_array = string.split(" ").collect {|word| word.reverse}.join(" ")
+# into_array = string.split(" ").collect {|word| word.reverse!}.join(" ")
 
 
  # turn the original string to an array
