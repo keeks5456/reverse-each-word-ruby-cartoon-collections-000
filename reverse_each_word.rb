@@ -16,7 +16,6 @@ end
 
 
 def reverse_each_word(string)
-  # turn the original string to an array
   into_array = string.split(" ")
   new_array = []
   # itereate over array
@@ -28,7 +27,7 @@ def reverse_each_word(string)
    new_array.join(" ")
   end
 
-
+ # turn the original string to an array
 
 
 
